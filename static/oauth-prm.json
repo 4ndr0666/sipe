@@ -1,0 +1,15 @@
+{
+  "resource": "http://localhost:8080/data",
+  "authorization_servers": [
+    "http://localhost:8080"
+  ],
+  "scopes_supported": [
+    "read:data",
+    "verify:kernel",
+    "admin"
+  ],
+  "bearer_methods_supported": [
+    "header"
+  ],
+  "resource_documentation": "http://localhost:8080/auth.md"
+}

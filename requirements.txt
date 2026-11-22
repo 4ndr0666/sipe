@@ -1,0 +1,5 @@
+# SIPE Local PoC Requirements
+# The core server and agent runner use only Python 3 standard library.
+# Optional client libraries for direct integrations:
+requests>=2.31.0
+openai>=1.12.0
